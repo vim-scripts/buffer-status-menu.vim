@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2008
+
+Replacement for Vim's default buffers menu to add status display.
+Now adds a + before modified buffers, * before the current buffer.
+
+Note that Vim doesn't seem to have an autocmd event for a buffer
+becoming modified, so the menu won't show this change until something
+else causes it to refresh.
+
+Original code stolen from Vim 7.0-164
